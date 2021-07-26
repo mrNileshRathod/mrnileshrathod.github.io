@@ -857,9 +857,6 @@ img {
     .qualification__data {
         gap: .5rem;
     }
-    .footer__copy {
-        text-align: initial;
-    }
 }
 
 /* For medium devices */
@@ -885,9 +882,6 @@ img {
         display: grid;
         grid-template-columns: .6fr;
         justify-content: center;
-    }
-    .footer__copy {
-        text-align: initial;
     }
 }
 
