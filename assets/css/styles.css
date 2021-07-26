@@ -322,13 +322,20 @@ img {
     font-size: var(--h2-font-size);
     color: var(--text-color);
     font-weight: var(--font-semi-bold);
+    margin-top: var(--mb-0-5);
     margin-bottom: var(--mb-0-75);
+}
+
+.animate {
+    color: var(--first-color);
 }
 
 .home__description {
     margin-bottom: var(--mb-2);
 }
-
+.home__data-contact{
+    margin-top: 5rem;
+}
 .home__scroll {
     display: none;
 }
@@ -366,6 +373,7 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    border: none;
 }
 
 .button:hover {
@@ -481,6 +489,7 @@ img {
 .skills__bar, .skills__percentage {
     height: 5px;
     border-radius: .25rem;
+    transition: all .2s ease-in-out;
 }
 
 .skills__bar {
@@ -870,7 +879,7 @@ img {
         order: 1;
         justify-self: center;
     }
-    .about__img{
+    .about__img {
         margin-top: -3rem;
     }
     .about__container, .skills__container, .portfolio__content, .contact__container {
@@ -886,8 +895,8 @@ img {
     }
 }
 
-@media (min-width: 569px) and (max-width: 767px){
-    .about__img{
+@media (min-width: 569px) and (max-width: 767px) {
+    .about__img {
         width: 275px;
         margin-top: -15rem;
     }
@@ -1024,7 +1033,7 @@ img {
     .swiper-container-horizontal>.swiper-pagination-bullets {
         bottom: -4.5rem;
     }
-    .about__img{
+    .about__img {
         width: 500px;
     }
     .contact__form {

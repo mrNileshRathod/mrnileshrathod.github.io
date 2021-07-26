@@ -1,17 +1,33 @@
 /*==================== Typing Effect ====================*/
 var typed = new Typed('.animate', {
     strings: [
-        "I'm Student",
-        "I'm GFG Student Chapter Techincal Head",
-        "I Love Competitive Programming",
-        "I'm Devolper",
-        "I'm Interested in Data Science",
-        "I'm Interested in Machine Learning"
+        "Student ",
+        "GFG Student Chapter Techincal Head ",
+        "Programmer ",
+        "Developer "
     ],
-    typeSpeed: 70,
-    backSpeed: 40,
+    typeSpeed: 90,
+    backSpeed: 80,
     loop: true,
 });
+
+/*==================== Scroll Effect ====================*/
+// let navbarlinks = select('#navbar .scrollto', true)
+// const navbarlinksActive = () => {
+//     let position = window.scrollY + 200
+//     navbarlinks.forEach(navbarlink => {
+//         if (!navbarlink.hash) return
+//         let section = select(navbarlink.hash)
+//         if (!section) return
+//         if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+//             navbarlink.classList.add('active')
+//         } else {
+//             navbarlink.classList.remove('active')
+//         }
+//     })
+// }
+// window.addEventListener('load', navbarlinksActive)
+// onscroll(document, navbarlinksActive)
 
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
@@ -118,7 +134,7 @@ function scrollActive() {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         } else {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-        } 
+        }
     })
 }
 window.addEventListener('scroll', scrollActive)
@@ -154,9 +170,9 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-mo
 
 // We validate if the user previously chose a topic
 if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-  themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+    // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+    document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+    themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
 }
 
 // Activate / deactivate the theme manually with the button

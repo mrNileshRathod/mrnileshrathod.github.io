@@ -110,9 +110,10 @@
                         <div class="home__data">
                             <h1 class="home__title">Nilesh Rathod</h1>
                             <h2 class="home__subtitle">
+                                I'm
                                 <span class="animate"></span>
                             </h2>
-                            <a href="#contact" class="button button--flex">
+                            <a href="#contact" class="home__data-contact button button--flex">
                                 Contact Me
                                 <i class="uil uil-message button__icon"></i>
                             </a>
@@ -137,35 +138,46 @@
                         <div class="about__description">
                             <p style="text-align: justify;">
                                 I was born and raised in a relatively small Village called Mungashi. The village is located in the Taluka Mahoor District Nanded(Maharashtra). Mahoor is the birthplace of Hindu God Dattatreya.There are three mountains in Mahur. The first one and most known is having Renuka Mata Temple, who is mother of the god Parshuram. Other two are called Datta Shikhar and Atri Anasuya Shikar Temple's.
-                            </p><br>
+                            </p>
+                            <br>
                             <p style="text-align: justify;">
                                 I'm in the Final year Bachelors of Engineering in Computer Science & Engineering. My interset in Software Development, Data Science and Machine Learning. Also, I am excited to learn and quickly adapt to any environment. So, right now, I’m looking for an entry-level position where I can utilize my skills and knownlodge about the araea gained during my diploma and engineering.
                             </p>
                         </div>
                         <div class="about__info">
                             <div>
-                                <span><i class="uil uil-award-alt about__icon"></i></span>
+                                <span>
+                                    <i class="uil uil-award-alt about__icon"></i>
+                                </span>
                                 <span class="about__info-title">08</span>
                                 <span class="about__info-name">
                                     &nbsp;Badges
                                 </span>
                             </div>
                             <div>
-                                <span>&ensp;<i class="uil uil-swatchbook about__icon"></i></span>
+                                <span>
+                                    &ensp;
+                                    <i class="uil uil-swatchbook about__icon"></i>
+                                </span>
                                 <span class="about__info-title"> &nbsp;&nbsp;05</span>
                                 <span class="about__info-name">
                                     &emsp;Project
                                 </span>
                             </div>
                             <div>
-                                <span><i class="uil uil-trophy about__icon"></i></span>
+                                <span>
+                                    <i class="uil uil-trophy about__icon"></i>
+                                </span>
                                 <span class="about__info-title">02</span>
                                 <span class="about__info-name">
                                     Trophy
                                 </span>
                             </div>
                             <div>
-                                <span>&nbsp;<i class="uil uil-suitcase-alt about__icon"></i></span>
+                                <span>
+                                    &nbsp;
+                                    <i class="uil uil-suitcase-alt about__icon"></i>
+                                </span>
                                 <span class="about__info-title">01</span>
                                 <span class="about__info-name">
                                     Internship
@@ -399,12 +411,12 @@
                                     <h3 class="qualification__title">Python Developer</h3>
                                     <h4 class="qualification__course">OBDURATE TECHNOLOGIES, Amravati</h4>
                                     <span class="qualification__activity">
-                                       <ul>
-                                           <li>Fundamental of Python</li>
-                                           <li>Python Visualization Libraries</li>
-                                           <li>Exploratory Data Analysis</li>
-                                           <li>Machine Learning Alogrithm</li>
-                                       </ul>
+                                        <ul>
+                                            <li>Fundamental of Python</li>
+                                            <li>Python Visualization Libraries</li>
+                                            <li>Exploratory Data Analysis</li>
+                                            <li>Machine Learning Alogrithm</li>
+                                        </ul>
                                     </span>
                                     <div class="qualification_calender">
                                         <i class="uil uil-calendar-alt"></i>
@@ -445,7 +457,7 @@
                             <img src="assets/img/portfolio2.jpg" alt="p2" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__titles">Medical Shop and Inventory Management System - (JAVA)</h3>
-                                <p class="portfolio__description">The project Medical Shop and Inventory Management System is developed to keep the record of the medicines. This can be used to keep the record of the Medicines, Employees, Supplier and the Customer as well. Besides various options it prepares the bill for the customer including the discount charges and taxes are applied at the time of bill.</p>
+                                <p class="portfolio__description">Ths project is developed to keep the record of the Medicines, Employees, Supplier and the Customer as well. Besides various options it prepares the bill for the customer including the discount charges and taxes are applied at the time of bill.</p>
                                 <a href="#" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -513,36 +525,59 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact__form grid">
+                    <form action="https://formsubmit.co/nr1157161@gmail.com" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_url" value="https://mrnileshrathod.github.io/">
+                            <input type="hidden" name="_template" value="table">
+                            <!-- <input type="hidden" name="_captcha" value="false"> -->
                             <div class="contact__content">
-                                <label for="" class="contact__label">Your Name</label>
-                                <input type="text" class="contact__input">
+                                <label class="contact__label">Your Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="contact__input"
+                                    placeholder="Enter your name"
+                                    required
+                                >
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email Address</label>
-                                <input type="email" class="contact__input">
+                                <label class="contact__label">Email Address</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="contact__input"
+                                    placeholder="Enter your Email Address"
+                                    required
+                                >
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Subject</label>
-                                <input type="text" class="contact__input">
+                                <label  class="contact__label">Subject</label>
+                                <input
+                                    type="text"
+                                    name="_subject"
+                                    class="contact__input"
+                                    placeholder="Enter a Subject"
+                                    required
+                                >
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
+                            <label class="contact__label">Message</label>
                             <textarea
-                                name=""
-                                id=""
                                 cols="0"
                                 rows="7"
                                 class="contact__input"
+                                name="message"
+                                placeholder="Enter a message"
+                                required
                             ></textarea>
                         </div>
                         <div>
-                            <a href="#" class="button button--flex">
+                            <button type="submit" class="button button--flex">
                                 Send
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
