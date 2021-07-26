@@ -88,6 +88,7 @@ tabs.forEach(tab => {
 var swiper = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
+    centeredSlides: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
