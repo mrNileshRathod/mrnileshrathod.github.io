@@ -779,14 +779,10 @@ img {
     font-weight: var(--mb-0-25);
 }
 
-.footer__title {
+.footer__title,.footer__copy {
     color: #fff;
 }
 
-.footer__copy {
-    color: #fff;
-    text-align: center;
-}
 
 /*========== SCROLL UP ==========*/
 
